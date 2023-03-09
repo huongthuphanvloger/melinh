@@ -7,7 +7,7 @@ import { parse } from "fast-csv";
 
 const path = require("path");
 const process = require("process");
-const CSV_PATH = path.join(process.cwd(), "test.csv");
+const CSV_PATH = path.join(process.cwd(), "melinh.csv");
 
 function PostDetail({ data, url }) {
   const router = useRouter();
